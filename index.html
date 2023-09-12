@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- DO NOT MODIFY THE FOLLOWING CONTENT -->
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>One-Shot Traumatic Brain Segmentation with Adversarial Training and Uncertainty Rectification</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+
+<!-- HEAD CONTENT, INCLUDING TITLE, AUTHORS, AND INSTITUTIONS -->
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">One-Shot Traumatic Brain Segmentation with Adversarial Training and Uncertainty Rectification</h1>
+          <div class="is-size-5 publication-authors">
+            <!-- Paper authors -->
+            <span class="author-block"><a href="https://hsiangyuzhao.github.io/" target="_blank">Xiangyu Zhao</a><sup>1</sup>,</span>
+            <span class="author-block">Zhenrong Shen<sup>1</sup>,</span>
+            <span class="author-block">Dongdong Chen<sup>1</sup>,</span>
+            <span class="author-block">Sheng Wang<sup>1,3</sup>,</span>
+            <span class="author-block">Zixu Zhuang<sup>1,3</sup>,</span>
+            <span class="author-block"><a href="https://qianwang.space/" target="_blank">Qian Wang</a><sup>2</sup>,</span>
+            <span class="author-block"><a href="https://mic.sjtu.edu.cn/" target="_blank">Lichi Zhang</a><sup>1</sup>,</span>
+                </span>
+                </div>
+
+                <div class="is-size-5 publication-authors">
+                  <span class="author-block"><small><sup>1</sup>School of Biomedical Engineering, Shanghai Jiao Tong University, Shanghai, China<br></small></span>
+                  <span class="author-block"><small><sup>2</sup>School of Biomedical Engineering, ShanghaiTech University, Shanghai, China<br></small></span>
+                  <span class="author-block"><small><sup>3</sup>Shanghai United Imaging Intelligence Co., Ltd., Shanghai, China</small><br>MICCAI 2023</span>
+                  <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
+                </div>
+
+                <div class="column has-text-centered">
+                  <div class="publication-links">
+                    <!-- Arxiv PDF link -->
+                    <span class="link-block">
+                      <a href="static/pdfs/paper.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Paper</span>
+                    </a>
+                  </span>
+
+                    <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <a href="static/pdfs/appendix.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span>
+                  
+                    <!-- Poster PDF link -->
+                    <span class="link-block">
+                      <a href="static/pdfs/Poster_portrait.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Poster</span>
+                    </a>
+                  </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/hsiangyuzhao/TBIOneShot" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <!-- <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<!-- <section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <source src="static/videos/banner_video.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+      </h2>
+    </div>
+  </div>
+</section> -->
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Brain segmentation of patients with severe traumatic brain injuries (sTBI) is essential for clinical treatment, but fully-supervised segmentation is limited by the lack of annotated data. One-shot segmentation based on learned transformations (OSSLT) has emerged as a powerful tool to overcome the limitations of insufficient training samples, which involves learning spatial and appearance transformations to perform data augmentation, and learning segmentation with augmented images. However, current practices face challenges in the limited diversity of augmented samples and the potential label error introduced by learned transformations. In this paper, we propose a novel one-shot traumatic brain segmentation method that surpasses these limitations by adversarial training and uncertainty rectification. The proposed method challenges the segmentation by adversarial disturbance of augmented samples to improve both the diversity of augmented data and the robustness of segmentation. Furthermore, potential label error introduced by learned transformations is rectified according to the uncertainty in segmentation. We validate the proposed method by the one-shot segmentation of consciousness-related brain regions in traumatic brain MR scans. Experimental results demonstrate that our proposed method has surpassed state-of-the-art alternatives.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- YOUR MAIN CONTENT HERE -->
+<section class="section">
+    <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3 has-text-centered">Overview</h2>
+        <div class="content has-text-justified">
+          <p>
+            Automatic brain ROI segmentation for magnetic resonance images (MRI) of severe traumatic brain injuries (sTBI) patients is crucial in brain damage assessment and brain network analysis, since manual labeling is time-consuming and labor-intensive. However, conventional brain segmentation pipelines, such as FSL and FreeSurfer, suffer significant performance deteriorations due to skull deformation and lesion erosions in traumatic brains. 
+            Although automatic segmentation based on deep learning has shown promises in accurate segmentation, these methods are still constrained by the scarcity of annotated sTBI scans. Thus, researches on traumatic brain segmentation under insufficient annotations needs further exploration.
+          </p>
+        </div>
+
+        <!-- SUBTITLE -->
+        <h3 class="title is-4">Traumatic Brain MR</h3>
+        <!-- ILLUSTRATION IMAGE -->
+        <div class="content has-text-centered">
+            <img src="./static/images/tbi_br.png" width="80%">
+        </div>
+        <!-- TEXT DESCRIPTION -->
+        <div class="content has-text-justified">
+          <p>
+            Here is the illustration of the MR image and its consciousness-related brain regions of a sTBI patient. 
+            Compared with normal brain scans, brain segmentation of sTBI brain scans are affected by lesions and deformed skulls, which leads to deteriorated performance.
+            In addition, manual labeling of these brain regions in sTBI MR scans could be laborious, and thus available annotations are extremly scarce.
+          </p>
+        </div>
+        
+
+        <!-- SUBTITLE -->
+        <h3 class="title is-4">One-Shot Segmentation</h3>
+        <!-- ILLUSTRATION IMAGE -->
+        <div class="content has-text-centered">
+            <img src="./static/images/paradigm_1.png" width="100%">
+        </div>
+        <!-- TEXT DESCRIPTION -->
+        <div class="content has-text-justified">
+          <p>
+            One-shot segmentation based on learned transformations (OSSLT) has been applied in one-shot brain segmentation.
+            These methods typically include three basic steps: <b>1) Learning registration; 2) Atlas augmentation; 3) Learning segmentation</b>.
+            However, previous OSSLT methods are faced with two challenges. First, <b>the diversity of atlas augmentation</b> is limited by the amount of available images.
+            Second, <b>the label authenticity of generated images</b> is affected by the presence of brain trauma during atlas augmentation.
+            Thus, we propose to introduce <b>adversarial training for atlas augmentation and uncertainty rectification for segmentation</b> to address these issues.
+          </p>
+        </div>
+      
+      </div>
+    </div>
+
+    <!-- NEXT SECTION -->
+    <div class="columns is-centered">
+      <div class="column is-full-width has-text-centered">
+        <h2 class="title is-3">Adversarial Training</h2>
+
+        <!-- ILLUSTRATION IMAGE -->
+        <div class="content has-text-centered">
+          <img src="./static/images/adversarial_training_single_update.jpg">
+        </div>
+
+        <!-- TEXT DESCRIPTION -->
+        <div class="content has-text-justified">
+          <p>
+            We propose adversarial training for atlas augmentation to improve the diversity of augmented atlas images. 
+            The proposed adversarial training strategy consists of three steps. First, the adversarial network takes original generated image as input, 
+            and <b>executes adversarial sampling to spatial and appearance transformations</b>. After that, the adversarial transformations are applied to the atlas image 
+            to <b>create an adversarial augmented image</b>, which is fed to the segmentation network. Then, the adversarial network and the segmentation network is trained 
+            <b>in an adversarial manner</b>. To be specific, the adversarial network is trained to <b>maximize the segmentation difference</b> before and after applying adversarial 
+            transformations, while the segmentation network is trained to <b>minimize the segmentation difference</b>. Thus, proposed adversarial training is able to 
+            <b>improve both the diversity of augmented atlas images and the robustness of segmentation learning</b>.
+            
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- NEXT SECTION -->
+    <div class="columns is-centered">
+      <div class="column is-full-width has-text-centered">
+        <h2 class="title is-3">Uncertainty Rectified Segmentation</h2>
+
+        <!-- ILLUSTRATION IMAGE -->
+        <div class="content has-text-centered">
+          <img src="./static/images/uncertainty_rectification_update.png" width="70%">
+        </div>
+
+        <!-- TEXT DESCRIPTION -->
+        <div class="content has-text-justified">
+          <p>
+            The presence of brain trauma could affect the label authenticity of the generated image. Thus, we propose uncertainty rectification to alleviate this problem. 
+            Specifically, we <b>use the warped atlas image as the spatial reference</b>. The segmentation difference of the generated image and the warped atlas image may indicate 
+            <b>the locations of potential label errors</b>, which are then rectified by <b>spatial-weighted segmentation loss</b>. The weight of different locations is determined by 
+            <b>the KL-divergence of two segmentation maps</b>.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- NEXT SECTION -->
+    <div class="columns is-centered">
+      <div class="column is-full-width has-text-centered">
+        <h2 class="title is-3">Segmentation Visualization</h2>
+
+        <!-- ILLUSTRATION IMAGE -->
+        <!-- <h3 class="title is-4">Axial</h3> -->
+        <div class="content has-text-justified">
+          <p>
+            Left to Right: <b>LT-Net</b>, <b>DeepAtlas</b>, <b>Brainstorm</b>, <b>Ours</b>, and <b>ground truth</b>.
+          </p>
+        </div>
+        <div class="content has-text-centered">
+          <img src="./static/images/axial.gif">
+        </div>
+        <!-- <h3 class="title is-4">Coronal</h3>
+        <div class="content has-text-justified">
+          <p>
+            Left to Right: <b>LT-Net</b>, <b>DeepAtlas</b>, <b>Brainstorm</b>, <b>Ours</b>, and <b>ground truth</b>.
+          </p>
+        </div> -->
+        <div class="content has-text-centered">
+          <img src="./static/images/coronal.gif">
+        </div>
+
+        <!-- TEXT DESCRIPTION -->
+        <!-- <div class="content has-text-justified">
+          <p>
+            testtesttest
+          </p>
+        </div> -->
+        
+      </div>
+    </div>
+    
+    <!-- NEXT SECTION -->
+    <div class="columns is-centered">
+      <div class="column is-full-width has-text-centered">
+        <h2 class="title is-3">Quantitative Results</h2>
+  
+        <!-- ILLUSTRATION IMAGE -->
+        <div class="content has-text-centered">
+          <img src="static/images/quantitative.png">
+        </div>
+        <!-- TEXT DESCRIPTION -->
+        <!-- <div class="content has-text-justified">
+          <p>
+            testtesttest
+          </p>
+        </div> -->
+
+      </div>
+    </div>
+
+</section>
+
+
+
+<!-- Paper poster -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/Poster_portrait.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section> -->
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@InProceedings{Zhao_2023_MICCAI,
+          author    = {Zhao, Xiangyu and Shen, Zhenrong and Chen, Dongdong and Wang, Sheng and Zhuang, Zixu and Wang, Qian and Zhang, Lichi},
+          title     = {One-Shot Traumatic Brain Segmentation with Adversarial Training and Uncertainty Rectification},
+          booktitle = {Proceedings of the International Conference on Medical Image Computing and Computer Assisted Intervention},
+          month     = {October},
+          year      = {2023},
+        }</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
